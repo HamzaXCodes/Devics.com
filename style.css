@@ -1,0 +1,401 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+
+}
+
+
+/* Utility Classes */
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    padding: 0 3%;
+}
+
+.flex{
+    display: flex;
+}
+
+.main-btn{
+    background-color: #1a90fe;
+    padding: 12px 24px;
+    border-radius: 5%;
+    color: #ffffff;
+    font-size: 15px ;
+}
+
+.arrow{
+    position: relative;
+    top: 1px;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #1a90fe;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+      
+}
+.logo{
+    color:  #0c2140;
+    font-size: 25px;
+    font-weight: 700;
+}
+.logo-span{
+    color: aliceblue;
+}
+.nav-links{
+    display: flex;
+    gap: 2vw;
+    
+    
+}
+
+.nav-link{
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all ease 0.3s;
+}
+
+.nav-link:hover{
+    color: #244C89;
+}
+
+.nav-button{
+    display: flex;
+    gap: 0.9vw;
+}
+
+.signin{
+    background-color: transparent;
+    border: 1px solid #244C89;
+    color: aliceblue;
+    transition: all ease 0.3s;
+    
+}
+
+.signin:hover{
+    background-color: #244C89;
+}
+
+.signup{
+    background-color: #244C89;
+    border: 1px solid transparent;
+    color: aliceblue;
+    transition: all ease 0.3s;
+}
+
+.signup:hover{
+    border: 1px solid #244C89;
+    background-color: transparent;
+}
+
+.menu-btn{
+    display: none;
+}
+
+/* ..................................................................... */
+
+/* Hero Section */
+
+.hero{
+    margin-top: 170px;    /* To avoid navbar overlap */
+    background-color: #ffffff;
+}
+
+.hero-sections{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hero-left{
+    width: 50vw;
+    height: calc(100% - 175px);
+    position: relative;
+    bottom: 60px;
+}
+
+.hero-left h1{
+    font-size: 3vw;
+    color: #333;
+}
+
+.hero-text1{
+    color: #1a90fe;
+}
+.hero-left p{
+    margin: 15px 0;
+    margin-bottom: 30px;
+    font-size: 1.4vw;
+    color: #535353;
+}
+.learn-more-hero{
+    transition: all ease 0.3s;
+    padding-inline: 22px;
+    
+    
+}
+.learn-more-hero:hover{
+        background-color: #0c2140;
+}
+.hero-right{
+    position: relative;
+    bottom: 60px;
+    width: 55vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.hero-right img{
+    width: 90%;
+}
+
+/* ..................................................................... */
+
+/* Companies Section */
+
+.companies-section{
+    width: 100%;
+    height: 190px;
+
+  
+}
+
+.companies-header{
+    font-size: 1.3vw;
+    color: #535353;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.companies-logos{
+    display: flex;
+    height: 130px;
+    align-items: center;
+    justify-content:space-between; 
+}
+
+.comp-logo{
+    height: 50px;
+    position: relative;
+    left: 10vw;  
+}
+
+/* ..................................................................... */
+
+/* Features Section */
+
+.features-section{
+    margin-top: 5px;
+    padding-bottom: 50px;
+
+}
+
+
+
+.feature-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-inline: 90px;
+    gap: 10px
+}
+
+.feature-header h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.span2{
+    color:#244C89;
+    cursor: pointer;
+    display: inline-block;
+    transition: all ease 0.4s;
+}
+
+.span2:hover{
+    transform: scale(1.07);
+}
+
+
+.feature-header p{
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+
+
+.features-area{
+    padding-inline: 90px;
+     align-items: center;
+     justify-content: center;
+     margin-top: 60px;
+     flex-wrap: wrap;
+    
+}
+
+.feature-card{
+    max-width: 30%;
+    gap: 15px;
+    border-radius: 1%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    padding: 40px 20px;
+}
+
+.feature-card:hover{
+    background-color: #cee7ff;
+   
+}
+
+.features-img{
+    width: 7vw;
+    border: 4px solid rgb(221, 221, 221);
+    border-radius: 50%;
+}
+
+
+.feature-card h3{
+      font-size: 1.4vw;
+}
+
+.feature-card p{
+      font-size: 1.1vw;
+}
+
+.learn-more-f{
+    color: #1a90fe;
+    font-size: 1.15vw;
+}
+
+.learn-more-f:hover{
+    color:#0c2140;
+}
+
+/* ..................................................................... */
+
+/* Big- Feature Section */
+
+
+.big-feature-section{
+    margin-top: 40px;
+}
+.img{
+    width: 35vw;
+}
+
+
+.big-feature-dec{
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.big-feature-container{
+    gap: 50px;
+}
+
+.big-feature-dec h4 {
+        font-size: 1.1vw;
+}
+
+.big-feature-dec h2{
+        font-size: 2vw;
+}
+
+.big-feature-dec p{
+        font-size: 1vw;
+}
+
+.b-f-c-2{
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .feature-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    max-width: 28%;
+    gap: 15px;
+    
+   
+
+}
+
+.feature-card:hover{
+    border-bottom: 3px solid #1a90fe;
+}
+
+
+.learn-more-f{
+    color: #1a90fe;
+    font-size: 1.05rem;
+    transition: all ease 0.2s;
+}
+.learn-more-f:hover{
+    color: #0c2140;
+}
+
+.features-img{
+    width: 90px;
+    border-radius: 50%;
+    border: 5px solid rgb(229, 229, 229);
+} */

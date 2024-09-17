@@ -1,0 +1,88 @@
+
+@media (max-width:768px) {
+
+        /* Global Styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: "poppins", sans-serif;
+    }
+    
+    
+    
+    /* Utility Classes */
+    a{
+        text-decoration: none;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    .container{
+        padding: 0 3%;
+    }
+    
+    .flex{
+        display: flex;
+    }
+    
+    .btn{
+        padding: 10px 20px;
+        background-color: beige;
+        border-radius: 5px;
+    }
+    /* NAVBAR */
+    .navbar{
+        height: 55px;
+   }
+
+   .nav-link{
+       display: none;
+   }
+
+   
+   .menu-btn{
+       display: block;
+       font-size: 22px;
+       color: aliceblue;
+       font-weight: 500;
+   }
+    /* Services Section */
+      
+
+
+    .services-cards {
+        padding-inline: 10%;
+    }
+    .services-header h2{
+        font-size: 3.3vw;
+    }
+
+    .services-card{
+        width: 100%;
+        
+    }
+}
+
+@media (max-width:425px) {
+    .services-header h2{
+        font-size: 5vw;
+    }
+
+    .services-cards {
+        padding-inline: 5%;
+    }
+    .services-header h2{
+        font-size: 3.3vw;
+    }
+
+    .services-card{
+        width: 100%;
+        
+    }
+}

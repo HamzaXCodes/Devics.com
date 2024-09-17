@@ -1,0 +1,175 @@
+
+@media (max-width:768px) {
+
+    /* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins";
+}
+
+
+
+/* Utility Classes */
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    padding: 0 3%;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: beige;
+    border-radius: 5px;
+}
+/* NAVBAR */
+.navbar{
+     height: 55px;
+}
+
+.nav-link{
+    display: none;
+}
+
+
+.menu-btn{
+    display: block;
+    font-size: 22px;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+/* About Section */
+
+.about-section{
+    margin-top: 55px;    /* To avoid navbar overlap */
+    padding-top: 50px;
+    background-color: #ffffff;
+}    
+}
+
+@media (max-width:425px) {
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins";
+}
+
+
+
+/* Utility Classes */
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    padding: 0 3%;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: beige;
+    border-radius: 5px;
+}  
+
+/* About Section */
+
+.about-section{
+    margin-top: 30px; 
+}
+.our-journey{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-journey-left{
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ 
+ .our-journey-left h2{
+    color: #333333;
+    font-size: 5.2vw;
+    text-align: center;
+ }
+ .our-journey-left p{
+    padding-inline: 10px;
+    margin-top: 5px;
+    font-size: 2.5vw;
+    text-align: center;
+ }
+
+ .our-journey-right{
+    margin-top: 20px;
+    padding-inline: 10px;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-journey-right img{
+    max-width: 100%;
+    border-radius: 1%;
+    box-shadow: 0px 0px 10px rgb(87, 87, 87);
+
+}
+
+
+.our-mission{
+    flex-direction: column;
+    width: 93%;
+   
+    
+}
+
+.our-mission h2{
+    margin-top: 30px;
+    color: aliceblue;
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+.our-mission h3{
+    margin-top: 10px;
+    color: rgb(214, 214, 214);
+    font-size: 2.5vw;
+    
+}
+}
+
+
